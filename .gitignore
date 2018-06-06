@@ -28,7 +28,6 @@
 *.xpi
 *.xst
 *_bitgen.xwbt
-*_envsettings.html
 *_map.map
 *_map.mrp
 *_map.ngm
@@ -37,7 +36,6 @@
 *_pad.csv
 *_pad.txt
 *_par.xrpt
-*_summary.html
 *_summary.xml
 *_usage.xml
 *_xst.xrpt
@@ -54,8 +52,6 @@ xaw2verilog.log
 
 # project-wide generated files
 *.gise
-par_usage_statistics.html
-usage_statistics_webtalk.html
 webtalk.log
 webtalk_pn.xml
 
