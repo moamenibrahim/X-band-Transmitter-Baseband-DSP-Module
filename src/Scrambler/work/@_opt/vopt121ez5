@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\PROJECTS\NARSS\Scrambler
+T_opt
+Z1 V?J@Mgb@BWG]3QZR1j6aLa3
+Z2 04 9 10 work scrambler behavioral 1
+Z3 =1-f0761caf7164-57bd7894-cc-2cd4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5b;42
+Escrambler
+Z7 w1471433101
+Z8 DPx22 C:\modeltech_6.5b\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z9 8Scrambler.vhd
+Z10 FScrambler.vhd
+l0
+L32
+Z11 VIaW_^JnJKQ9]izz0[W@Ji0
+Z12 OE;C;6.5b;42
+Z13 o-explicit -93
+Z14 tExplicit 1
+Z15 !s100 Y=UR8_C5WV2BglzW8HQ292
+Abehavioral
+R8
+DEx32 F:\PROJECTS\NARSS\Scrambler\work 9 scrambler 0 22 IaW_^JnJKQ9]izz0[W@Ji0
+31
+Mx1 22 C:\modeltech_6.5b\ieee 14 std_logic_1164
+l43
+L40
+Z16 VA?9k<eONoX_c>=Koe02n50
+R12
+R13
+R14
+Z17 !s100 cNOXG6M7B3M6PoXVGITeO3

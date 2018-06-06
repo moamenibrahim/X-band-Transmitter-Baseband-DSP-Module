@@ -1,0 +1,179 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\PROJECTS\NARSS\DSP
+T_opt
+Z1 VC@M;cm_l^^zWYlL;dMm^Q2
+Z2 04 7 10 work dsp_top behavioral 1
+Z3 =1-f0761caf7164-57c35e0c-3a4-3da0
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5b;42
+Eclk_diff
+Z7 w1471423413
+Z8 DPx22 C:\modeltech_6.5b\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx22 C:\modeltech_6.5b\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx22 C:\modeltech_6.5b\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z11 8clk_diff.vhd
+Z12 Fclk_diff.vhd
+l0
+L34
+Z13 VjTeIZQ][3FMRa1JTFMBch3
+Z14 OE;C;6.5b;42
+Z15 o-explicit -93
+Z16 tExplicit 1
+Z17 !s100 FYkRDcijC95MY>5h?[@392
+Abehavioral
+R8
+R9
+R10
+Z18 DEx26 F:\PROJECTS\NARSS\DSP\work 8 clk_diff 0 22 jTeIZQ][3FMRa1JTFMBch3
+31
+Z19 Mx3 22 C:\modeltech_6.5b\ieee 14 std_logic_1164
+Z20 Mx2 22 C:\modeltech_6.5b\ieee 18 std_logic_unsigned
+Z21 Mx1 22 C:\modeltech_6.5b\ieee 15 std_logic_arith
+l46
+L42
+Z22 V7kTECblXK=e:JRPb8Y62l1
+R14
+R15
+R16
+Z23 !s100 Bf@I9@NM3D;;Oi@Fj<eTz2
+Econventional_encoder
+Z24 w1471434619
+R10
+31
+Z25 8../Conventional_Encoder/Conventional_Encoder.vhd
+Z26 F../Conventional_Encoder/Conventional_Encoder.vhd
+l0
+L32
+Z27 VMj4nf?e5C=j7Yj7IfMWio3
+R14
+R15
+R16
+Z28 !s100 5>Q>9^LTW`NeIBeD3Qi561
+Abehavioral
+R10
+Z29 DEx26 F:\PROJECTS\NARSS\DSP\work 20 conventional_encoder 0 22 Mj4nf?e5C=j7Yj7IfMWio3
+31
+Z30 Mx1 22 C:\modeltech_6.5b\ieee 14 std_logic_1164
+l44
+L41
+Z31 V3FU`L<jR@;[A<gYH14o881
+R14
+R15
+R16
+Z32 !s100 ?Q^ng^:P8Q4TNE2]bnIc?1
+Ediff_en
+Z33 w1471423475
+R10
+31
+Z34 8diff_en.vhd
+Z35 Fdiff_en.vhd
+l0
+L32
+Z36 VS?hVPWnNk94Dhc8cDg?^W1
+R14
+R15
+R16
+Z37 !s100 gm69EQ[V^_eU7fD9eQbVM0
+Abehavioral
+R10
+Z38 DEx26 F:\PROJECTS\NARSS\DSP\work 7 diff_en 0 22 S?hVPWnNk94Dhc8cDg?^W1
+31
+R30
+l44
+L40
+Z39 VbZ]zo@c_ed23=lMN`kbdl2
+R14
+R15
+R16
+Z40 !s100 l4J_[2>=^eA?zI@6Q`6O43
+Edsp_top
+Z41 w1472062835
+R8
+R9
+R10
+31
+Z42 8DSP_top.vhd
+Z43 FDSP_top.vhd
+l0
+L34
+Z44 VKzIWZmg:V6][d7>BZdFO40
+R14
+R15
+R16
+Z45 !s100 DmjSZUUk2ZYSSMVNAe[EE2
+Abehavioral
+R38
+R18
+Z46 DEx26 F:\PROJECTS\NARSS\DSP\work 9 scrambler 0 22 IaW_^JnJKQ9]izz0[W@Ji0
+Z47 DEx26 F:\PROJECTS\NARSS\DSP\work 3 prs 0 22 2`LL>I[`kIzlHN4^h=XcT0
+R29
+R8
+R9
+R10
+DEx26 F:\PROJECTS\NARSS\DSP\work 7 dsp_top 0 22 KzIWZmg:V6][d7>BZdFO40
+31
+R19
+R20
+R21
+l113
+L43
+Z48 V9FDR<:UQF;=01YlheOFFP0
+R14
+R15
+R16
+Z49 !s100 B?>I@RUl2O0cmES84Kg6F0
+Eprs
+Z50 w1471521396
+R10
+31
+Z51 8../PRS/PRS.vhd
+Z52 F../PRS/PRS.vhd
+l0
+L32
+Z53 V2`LL>I[`kIzlHN4^h=XcT0
+R14
+R15
+R16
+Z54 !s100 kkd@iHEChhPNN=;TTk]nn1
+Abehavioral
+R10
+R47
+31
+R30
+l41
+L39
+Z55 V0UWRXAS[LH]U^<7:dkL?F0
+R14
+R15
+R16
+Z56 !s100 F?=^MiNX<_ld^L5Ic20:U2
+Escrambler
+Z57 w1471433101
+R10
+31
+Z58 8../Scrambler/Scrambler.vhd
+Z59 F../Scrambler/Scrambler.vhd
+l0
+L32
+Z60 VIaW_^JnJKQ9]izz0[W@Ji0
+R14
+R15
+R16
+Z61 !s100 Y=UR8_C5WV2BglzW8HQ292
+Abehavioral
+R10
+R46
+31
+R30
+l43
+L40
+Z62 VA?9k<eONoX_c>=Koe02n50
+R14
+R15
+R16
+Z63 !s100 cNOXG6M7B3M6PoXVGITeO3

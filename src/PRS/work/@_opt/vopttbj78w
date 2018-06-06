@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\PROJECTS\NARSS\PRS
+T_opt
+Z1 VKFnFZm7cNMkPMJo:27cZk3
+Z2 04 3 10 work prs behavioral 1
+Z3 =1-f0761caf7164-57b5a281-1ee-224c
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5b;42
+Eprs
+Z7 w1471521396
+Z8 DPx22 C:\modeltech_6.5b\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z9 8PRS.vhd
+Z10 FPRS.vhd
+l0
+L32
+Z11 V2`LL>I[`kIzlHN4^h=XcT0
+Z12 OE;C;6.5b;42
+Z13 o-explicit -93
+Z14 tExplicit 1
+Z15 !s100 kkd@iHEChhPNN=;TTk]nn1
+Abehavioral
+R8
+DEx26 F:\PROJECTS\NARSS\PRS\work 3 prs 0 22 2`LL>I[`kIzlHN4^h=XcT0
+31
+Mx1 22 C:\modeltech_6.5b\ieee 14 std_logic_1164
+l41
+L39
+Z16 V0UWRXAS[LH]U^<7:dkL?F0
+R12
+R13
+R14
+Z17 !s100 F?=^MiNX<_ld^L5Ic20:U2

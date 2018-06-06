@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\PROJECTS\NARSS\diff_en
+T_opt
+Z1 Vc[1Zj?E4zoz7P:?KbeGXB0
+Z2 04 7 10 work diff_en behavioral 1
+Z3 =1-f0761caf7164-57b310cf-164-4dc
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5b;42
+Ediff_en
+Z7 w1471353006
+Z8 DPx22 C:\modeltech_6.5b\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z9 8diff_en.vhd
+Z10 Fdiff_en.vhd
+l0
+L32
+Z11 VS?hVPWnNk94Dhc8cDg?^W1
+Z12 OE;C;6.5b;42
+Z13 o-explicit -93
+Z14 tExplicit 1
+Z15 !s100 gm69EQ[V^_eU7fD9eQbVM0
+Abehavioral
+R8
+DEx30 F:\PROJECTS\NARSS\diff_en\work 7 diff_en 0 22 S?hVPWnNk94Dhc8cDg?^W1
+31
+Mx1 22 C:\modeltech_6.5b\ieee 14 std_logic_1164
+l44
+L40
+Z16 VFaKc_l[zPBhc4iGQngnJE1
+R12
+R13
+R14
+Z17 !s100 KK@Geozd:Ri=hIPaN<MJn3

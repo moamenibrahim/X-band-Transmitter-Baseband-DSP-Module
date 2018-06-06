@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Adder/Adder/Adder.xst" -ofn "F:/PROJECTS/NARSS/Adder/Adder/Adder.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Adder/Adder/Adder.xst" -ofn "F:/PROJECTS/NARSS/Adder/Adder/Adder.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Adder/Adder/Adder.xst" -ofn "F:/PROJECTS/NARSS/Adder/Adder/Adder.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Adder/Adder/Adder.xst" -ofn "F:/PROJECTS/NARSS/Adder/Adder/Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Adder.ngc Adder.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Adder_map.ncd Adder.ngd Adder.pcf 
+par -w -intstyle ise -ol high -mt off Adder_map.ncd Adder.ncd Adder.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Adder.twx Adder.ncd -o Adder.twr Adder.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder.ucf -p xc7a100t-csg324-1 Adder.ngc Adder.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Adder_map.ncd Adder.ngd Adder.pcf 
+par -w -intstyle ise -ol high -mt off Adder_map.ncd Adder.ncd Adder.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Adder.twx Adder.ncd -o Adder.twr Adder.pcf -ucf Adder.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder.ucf -p xc7a100t-csg324-1 Adder.ngc Adder.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Adder_map.ncd Adder.ngd Adder.pcf 
+par -w -intstyle ise -ol high -mt off Adder_map.ncd Adder.ncd Adder.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Adder.twx Adder.ncd -o Adder.twr Adder.pcf -ucf Adder.ucf 

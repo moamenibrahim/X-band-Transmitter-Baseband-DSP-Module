@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Conventional_Encoder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Conventional_Encoder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Conventional_Encoder.cmd_log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="Conventional_Encoder.fdo"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Conventional_Encoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Conventional_Encoder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Conventional_Encoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Conventional_Encoder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Conventional_Encoder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Conventional_Encoder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Conventional_Encoder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Conventional_Encoder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Conventional_Encoder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Conventional_Encoder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Conventional_Encoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Conventional_Encoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Conventional_Encoder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Conventional_Encoder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Conventional_Encoder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Conventional_Encoder.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Conventional_Encoder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Conventional_Encoder.xst"/>
+    <file xil_pn:fileType="FILE_BLIF" xil_pn:name="Conventional_Encoder_cs.blc"/>
+    <file xil_pn:fileType="FILE_NGC" xil_pn:name="Conventional_Encoder_cs.ngc"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Conventional_Encoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Conventional_Encoder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Conventional_Encoder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Conventional_Encoder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Conventional_Encoder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Conventional_Encoder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Conventional_Encoder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Conventional_Encoder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Conventional_Encoder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Conventional_Encoder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Conventional_Encoder_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Conventional_Encoder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Conventional_Encoder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Conventional_Encoder_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Conventional_Encoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="conventional_encoder.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="conventional_encoder.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="conventional_encoder.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1470912530" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1470912530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471346282" xil_pn:in_ck="-1619545142740445473" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1471346282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Conventional_Encoder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912530" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3541042835250801294" xil_pn:start_ts="1470912530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912530" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5709948589658857040" xil_pn:start_ts="1470912530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912530" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7315574936196535082" xil_pn:start_ts="1470912530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471346282" xil_pn:in_ck="-1619545142740445473" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1471346282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Conventional_Encoder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1472039222" xil_pn:in_ck="-1619545142740445473" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="-7608193544780592677" xil_pn:start_ts="1472039220">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Conventional_Encoder.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1470912233">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7459269796068339920" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7315574936196535082" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3541042835250801294" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470912234" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1036854264261146656" xil_pn:start_ts="1470912234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471441569" xil_pn:in_ck="-1619545142740445473" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="4022586737887646301" xil_pn:start_ts="1471441514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Conventional_Encoder.lso"/>
+      <outfile xil_pn:name="Conventional_Encoder.ngc"/>
+      <outfile xil_pn:name="Conventional_Encoder.ngr"/>
+      <outfile xil_pn:name="Conventional_Encoder.prj"/>
+      <outfile xil_pn:name="Conventional_Encoder.stx"/>
+      <outfile xil_pn:name="Conventional_Encoder.syr"/>
+      <outfile xil_pn:name="Conventional_Encoder.xst"/>
+      <outfile xil_pn:name="Conventional_Encoder_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1471347169" xil_pn:in_ck="4755692819275797" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-704044225616729753" xil_pn:start_ts="1471347169">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471441676" xil_pn:in_ck="-1887305384788606421" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1820692501589802609" xil_pn:start_ts="1471441586">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Conventional_Encoder.bld"/>
+      <outfile xil_pn:name="Conventional_Encoder.ngd"/>
+      <outfile xil_pn:name="Conventional_Encoder_cs.blc"/>
+      <outfile xil_pn:name="Conventional_Encoder_cs.ngc"/>
+      <outfile xil_pn:name="Conventional_Encoder_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1471441783" xil_pn:in_ck="8341838315826196555" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1471441676">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Conventional_Encoder.pcf"/>
+      <outfile xil_pn:name="Conventional_Encoder_map.map"/>
+      <outfile xil_pn:name="Conventional_Encoder_map.mrp"/>
+      <outfile xil_pn:name="Conventional_Encoder_map.ncd"/>
+      <outfile xil_pn:name="Conventional_Encoder_map.ngm"/>
+      <outfile xil_pn:name="Conventional_Encoder_map.xrpt"/>
+      <outfile xil_pn:name="Conventional_Encoder_summary.xml"/>
+      <outfile xil_pn:name="Conventional_Encoder_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1471441888" xil_pn:in_ck="1299178599927684516" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1471441783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Conventional_Encoder.ncd"/>
+      <outfile xil_pn:name="Conventional_Encoder.pad"/>
+      <outfile xil_pn:name="Conventional_Encoder.par"/>
+      <outfile xil_pn:name="Conventional_Encoder.ptwx"/>
+      <outfile xil_pn:name="Conventional_Encoder.unroutes"/>
+      <outfile xil_pn:name="Conventional_Encoder.xpi"/>
+      <outfile xil_pn:name="Conventional_Encoder_pad.csv"/>
+      <outfile xil_pn:name="Conventional_Encoder_pad.txt"/>
+      <outfile xil_pn:name="Conventional_Encoder_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1471442004" xil_pn:in_ck="-1619545142740454350" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1471441927">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Conventional_Encoder.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="conventional_encoder.bgn"/>
+      <outfile xil_pn:name="conventional_encoder.bit"/>
+      <outfile xil_pn:name="conventional_encoder.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1471525833" xil_pn:in_ck="2233697250335540796" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="1820692501589802609" xil_pn:start_ts="1471525833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471441888" xil_pn:in_ck="8139669889771289287" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1471441843">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Conventional_Encoder.twr"/>
+      <outfile xil_pn:name="Conventional_Encoder.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

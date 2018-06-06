@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 PRS.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 PRS.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 PRS.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 PRS.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PRS.ucf -p xc7a100t-csg324-1 PRS_cs.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf -ucf PRS.ucf 
+bitgen -intstyle ise -f PRS.ut PRS.ncd 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PRS.ucf -p xc7a100t-csg324-1 PRS_cs.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf -ucf PRS.ucf 
+bitgen -intstyle ise -f PRS.ut PRS.ncd 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PRS.ucf -p xc7a100t-csg324-1 PRS_cs.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PRS.ucf -p xc7a100t-csg324-1 PRS_cs.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf -ucf PRS.ucf 
+bitgen -intstyle ise -f PRS.ut PRS.ncd 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/PRS/PRS.xst" -ofn "F:/PROJECTS/NARSS/PRS/PRS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PRS.ucf -p xc7a100t-csg324-1 PRS_cs.ngc PRS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRS_map.ncd PRS.ngd PRS.pcf 
+par -w -intstyle ise -ol high -mt off PRS_map.ncd PRS.ncd PRS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PRS.twx PRS.ncd -o PRS.twr PRS.pcf -ucf PRS.ucf 
+bitgen -intstyle ise -f PRS.ut PRS.ncd 

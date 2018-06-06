@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Up_Down/Up_Down/u_d_Counter.xst" -ofn "F:/PROJECTS/NARSS/Up_Down/Up_Down/u_d_Counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 u_d_Counter.ngc u_d_Counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o u_d_Counter_map.ncd u_d_Counter.ngd u_d_Counter.pcf 
+par -w -intstyle ise -ol high -mt off u_d_Counter_map.ncd u_d_Counter.ncd u_d_Counter.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml u_d_Counter.twx u_d_Counter.ncd -o u_d_Counter.twr u_d_Counter.pcf 

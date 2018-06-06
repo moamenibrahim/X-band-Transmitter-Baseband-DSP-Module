@@ -1,0 +1,5 @@
+NET "clk"   LOC = "E3"	| IOSTANDARD = "LVCMOS33";
+NET "rst"   LOC = "J15"	| IOSTANDARD = "LVCMOS33";
+NET "clk_en"   LOC = "L16"	| IOSTANDARD = "LVCMOS33";
+NET "input"   LOC = "M13"	| IOSTANDARD = "LVCMOS33";
+NET "output"   LOC = "A9"	| IOSTANDARD = "LVCMOS33";

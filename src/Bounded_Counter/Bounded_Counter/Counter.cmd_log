@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Bounded_Counter/Bounded_Counter/Counter.xst" -ofn "F:/PROJECTS/NARSS/Bounded_Counter/Bounded_Counter/Counter.syr" 
+xst -intstyle ise -ifn "F:/PROJECTS/NARSS/Bounded_Counter/Bounded_Counter/Counter.xst" -ofn "F:/PROJECTS/NARSS/Bounded_Counter/Bounded_Counter/Counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Counter.ngc Counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Counter_map.ncd Counter.ngd Counter.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Counter_preroute.twx Counter_map.ncd -o Counter_preroute.twr Counter.pcf 
+par -w -intstyle ise -ol high -mt off Counter_map.ncd Counter.ncd Counter.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Counter.twx Counter.ncd -o Counter.twr Counter.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counter.ucf -p xc7a100t-csg324-1 Counter.ngc Counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Counter_map.ncd Counter.ngd Counter.pcf 
+par -w -intstyle ise -ol high -mt off Counter_map.ncd Counter.ncd Counter.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Counter.twx Counter.ncd -o Counter.twr Counter.pcf -ucf Counter.ucf 

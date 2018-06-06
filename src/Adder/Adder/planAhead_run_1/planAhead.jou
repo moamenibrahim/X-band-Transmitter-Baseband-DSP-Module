@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 10 23:03:03 2016
+# Process ID: 3624
+# Log file: F:/PROJECTS/NARSS/Adder/Adder/planAhead_run_1/planAhead.log
+# Journal file: F:/PROJECTS/NARSS/Adder/Adder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/PROJECTS/NARSS/Adder/Adder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard HSTL_I [get_ports [list clk]]
+set_property iostandard HSTL_II [get_ports [list clk_en]]
+set_property iostandard HSUL_12 [get_ports [list rst]]
+set_property iostandard LVCMOS12 [get_ports [list {output[5]} {output[4]} {output[3]} {output[2]} {output[1]} {output[0]}]]
+set_property iostandard LVCMOS15 [get_ports [list {b[4]} {b[3]} {b[2]} {b[1]} {b[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {a[4]} {a[3]} {a[2]} {a[1]} {a[0]}]]
+save_constraints

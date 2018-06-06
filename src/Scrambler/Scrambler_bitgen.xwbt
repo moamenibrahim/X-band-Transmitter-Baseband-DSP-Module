@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\PROJECTS\NARSS\Scrambler\Scrambler.ncd
+OUTFILE=F:\PROJECTS\NARSS\Scrambler\Scrambler.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=F:\PROJECTS\NARSS\Scrambler
+LICENSE=WebPack
+USER_INFO=__0_0_0

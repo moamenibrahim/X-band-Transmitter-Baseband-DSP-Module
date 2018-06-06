@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 10 23:13:45 2016
+# Process ID: 14860
+# Log file: F:/PROJECTS/NARSS/Adder/Adder/planAhead_run_3/planAhead.log
+# Journal file: F:/PROJECTS/NARSS/Adder/Adder/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/PROJECTS/NARSS/Adder/Adder/pa.fromNetlist.tcl
