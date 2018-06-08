@@ -41,7 +41,7 @@
 *_xst.xrpt
 
 # work folder 
-src/*.html
+src/
 src/Adder/
 src/Bounded_Counter/
 src/Conventional_Encoder/
