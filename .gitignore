@@ -40,24 +40,17 @@
 *_usage.xml
 *_xst.xrpt
 
-# iMPACT generated files
-_impactbatch.log
-impact.xsl
-impact_impact.xwbt
-ise_impact.cmd
-webtalk_impact.xml
-
-# Core Generator generated files
-xaw2verilog.log
-
-# project-wide generated files
-*.gise
-webtalk.log
-webtalk_pn.xml
-
-# generated folders
-iseconfig/
-xlnx_auto_0_xdb/
-xst/
-_ngo/
-_xmsgs/
+# work folder 
+src/*.html
+src/Adder/*.html
+src/Bounded_Counter/*.html
+src/Conventional_Encoder/*.html
+src/Counter/*.html
+src/Mux/*.html
+src/P2S/*.html
+src/PRS/*.html
+src/Scrambler/*.html
+src/Up_Down/*.html
+src/clk_diff/*.html
+src/diff_en/*.html
+work/*
