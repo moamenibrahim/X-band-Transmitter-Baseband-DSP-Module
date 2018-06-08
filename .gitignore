@@ -42,15 +42,15 @@
 
 # work folder 
 src/*.html
-src/Adder/*.html
-src/Bounded_Counter/*.html
-src/Conventional_Encoder/*.html
-src/Counter/*.html
-src/Mux/*.html
-src/P2S/*.html
-src/PRS/*.html
-src/Scrambler/*.html
-src/Up_Down/*.html
-src/clk_diff/*.html
-src/diff_en/*.html
+src/Adder/*
+src/Bounded_Counter/*
+src/Conventional_Encoder/*
+src/Counter/*
+src/Mux/*
+src/P2S/*
+src/PRS/*
+src/Scrambler/*
+src/Up_Down/*
+src/clk_diff/*
+src/diff_en/*
 work/*
