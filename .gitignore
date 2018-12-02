@@ -54,3 +54,6 @@ src/Up_Down/
 src/clk_diff/
 src/diff_en/
 work/
+
+# ignore HTML 
+*.html
