@@ -42,3 +42,5 @@
 
 # ignore HTML 
 *.html
+src/work/
+src/*/
