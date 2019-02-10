@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=F:\PROJECTS\NARSS\diff_en\diff_en.ncd
-OUTFILE=F:\PROJECTS\NARSS\diff_en\diff_en.bit
-FAMILY=Artix7
-PART=xc7a100t-1csg324
-WORKINGDIR=F:\PROJECTS\NARSS\diff_en
-LICENSE=WebPack
-USER_INFO=__0_0_0

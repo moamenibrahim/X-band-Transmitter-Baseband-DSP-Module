@@ -46,12 +46,12 @@ signal tmp : STD_LOGIC ;
 begin
 process(clk,clk_en,rst,tmp)
 begin
-if ( rst = '1'  ) then
+if ( rising_edge (clk) ) then
+	if (rst = '1') then
 		clk_50 <= '0'; 
 		tmp <= '0';
-elsif (rising_edge (clk)) then
-	if ( clk_en = '1') then
-		tmp <= NOT ( tmp) ; 
+	elsif ( clk_en = '1') then
+			tmp <= NOT ( tmp) ; 
 	else
 		clk_50 <= '0'; 
 		tmp <= '0';

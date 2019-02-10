@@ -45,14 +45,11 @@ begin
 
 process(input,clk_en,rst,clk,buff)
 begin
-
-if (rst = '1') then
+if ( rising_edge (clk) ) then
+	if (rst = '1') then
 		output <= '0'; 
-		buff <= '0';
-		
-elsif ( rising_edge (clk) ) then
-	 
-	if ( clk_en = '1') then
+		buff <= '0'; 
+	elsif ( clk_en = '1') then
 		buff <= buff XOR input; 
 		
 	else
