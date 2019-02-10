@@ -40,20 +40,5 @@
 *_usage.xml
 *_xst.xrpt
 
-# work folder 
-src/
-src/Adder/
-src/Bounded_Counter/
-src/Conventional_Encoder/
-src/Counter/
-src/Mux/
-src/P2S/
-src/PRS/
-src/Scrambler/
-src/Up_Down/
-src/clk_diff/
-src/diff_en/
-work/
-
 # ignore HTML 
 *.html
